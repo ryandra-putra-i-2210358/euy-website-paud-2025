@@ -21,8 +21,7 @@ Route::prefix('')->name('inertia.')->group(function () {
     Route::get('/', [PageController::class, 'home'])->name('home');
     Route::get('/about', [PageController::class, 'about'])->name('about');
     Route::get('/contact', [PageController::class, 'contact'])->name('contact');
-
-
+    Route::get('/daftar', [PageController::class, 'daftar'])->name('daftar');
 });
 
 Route::get('/dashboard', function () {

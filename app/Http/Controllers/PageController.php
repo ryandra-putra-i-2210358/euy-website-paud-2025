@@ -29,4 +29,9 @@ class PageController extends Controller
     {
         return Inertia::render('Contact/ContactIndex', []);
     }
+
+    public function daftar()
+    {
+        return Inertia::render('Daftar/DaftarIndex' , []);
+    }
 }

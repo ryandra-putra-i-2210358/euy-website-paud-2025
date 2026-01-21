@@ -29,6 +29,7 @@ const user = props.auth?.user
           <Link href="/" class="nav-link">Home</Link>
           <Link href="/about" class="nav-link">About</Link>
           <Link href="/contact" class="nav-link">Contact</Link>
+          <Link href="/daftar" class="nav-link">Daftar</Link>
 
           <template v-if="user">
             <Link href="/dashboard" class="nav-link font-semibold">
@@ -58,6 +59,7 @@ const user = props.auth?.user
         <Link href="/" class="mobile-link">Home</Link>
         <Link href="/about" class="mobile-link">About</Link>
         <Link href="/contact" class="mobile-link">Contact</Link>
+        <Link href="/daftar" class="mobile-link">Daftar</Link>
 
         <template v-if="user">
           <Link href="/dashboard" class="mobile-link font-semibold">
@@ -67,7 +69,7 @@ const user = props.auth?.user
 
         <template v-else>
           <Link href="/login" class="mobile-link">Login</Link>
-          <Link href="/register" class="mobile-link">Register</Link>
+          <!-- <Link href="/register" class="mobile-link">Register</Link> -->
         </template>
       </div>
     </div>

@@ -34,7 +34,8 @@ onMounted(() => {
 
 
 <template>
-  <section class="relative bg-white mt-[100px] z-10 py-10">
+  <section class="relative py-24 px-6 bg-gradient-to-t from-sky-200 via-blue-100 to-white overflow-hidden">
+    <div class="absolute -top-50 -left-50 w-72 h-72 bg-blue-300 rounded-full opacity-30"></div>
     <div class="max-w-7xl mx-auto px-4">
 
       <!-- Header -->

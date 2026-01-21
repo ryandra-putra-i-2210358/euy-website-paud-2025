@@ -23,7 +23,10 @@ const fasilitas = [
 ]
 </script>
 <template>
-  <section class="bg-blue-50 py-20">
+  <section class="relative py-24 px-6 bg-gradient-to-t from-sky-200 via-blue-100 to-white overflow-hidden">
+    <div class="absolute -top-20 -left-20 w-72 h-72 bg-blue-300 rounded-full opacity-30"></div>
+    <div class="absolute bottom-0 -right-20 w-96 h-96 bg-sky-300 rounded-full opacity-30"></div>
+
     <div class="max-w-7xl mx-auto px-4">
 
       <!-- Header -->
